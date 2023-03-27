@@ -1,0 +1,60 @@
+<html>
+  <body>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="index.css" />
+    <h1 id="registration" style="text-align: center; margin-top: 120px">
+      REGISTRATION FORM
+    </h1>
+    <form id="form" name="RegForm" onsubmit="SUBMITTED()" onsubmit="return false" method="post">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <p>Name: <input id="name1" type="text" size="40" name="Name" /></p>
+        <p>Address:<input id="address" size="38" type="text" /></p>
+        <p>E-mail:<input id="mail" size="40" type="email" /></p>
+        <p>
+          password:<input
+            id="pass"
+            size="36"
+            type="password"
+            name="namepassword"
+          />
+        </p>
+        <p>ph.no:<input id="phone" size="40" type="text" /></p>
+        <label id="choose" for="select">choose ur course: </label>
+        <select id="select">
+          choose your course
+          <option><b>Mechanical</b></option>
+          <option>CSE</option>
+          <option>ECE</option>
+        </select>
+        <br />
+        <p>
+          <input
+            class="send"
+            id="send"
+            type="submit"
+            value="send"
+            name="Submit"
+          />
+          <input class="resend" type="reset" value="Reset" name="Reset" />
+        </p>
+      </fieldset>
+    </form>
+    <script src="index.js"></script>
+    <!-- <script>
+      function SUBMITTED() {
+        //var name1 = document.getElementById("name");
+        //var password = document.getElementById("pass");
+        var n1 = document.RegForm.Name.value;
+        var n2 = document.RegForm.namepassword.value;
+
+        if (n1 == "") {
+          alert("Name can't be blank");
+        }
+        if (n2.length < 6) {
+          alert("give valid password");
+        }
+      }
+    </script> -->
+  </body>
+</html>

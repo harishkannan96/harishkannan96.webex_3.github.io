@@ -1,0 +1,99 @@
+body{
+    background-image: url("1336125.webp");
+    font-family: monospace;
+    font-size: larger;
+    padding: 30px;
+}
+#form{
+    text-align: center;
+    align-items:flex-end;
+
+}
+#registration{
+    margin-left: 400px;
+    align-items: center;
+    text-align: center;
+    color: darkblue;
+    background-color: aqua;
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    
+    
+}
+
+.send{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resend{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#select{
+    background-color:rebeccapurple;
+    border: 5px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+#choose{
+    color: white;
+}
+#name1{
+    padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    align-items: center;
+}
+#address{
+    padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    align-items: center;
+}
+#mail{padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    align-items: center;}
+#pass{
+    padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    align-items: center;
+}
+#phone{padding: 7px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: aquamarine;
+    align-items: center;}
+legend{
+    background-color: blueviolet;
+    font-size: larger;
+    color: aqua;
+    border:20px;
+    width: 400px;
+    padding: 10px;
+
+    border-color: black;
+    border-radius: 10px;
+}
+p{
+    color: gray;
+}
+input[type=text]:focus{
+    outline: 2px solid aqua;     /* oranges! yey */
+  }
